@@ -1,0 +1,19 @@
+section {
+    margin: 5px;
+    height: 150px;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: .5%;
+    background: red;
+    transition: width 2s ease;
+}
+
+div:hover {
+    width: 97vw;
+    transition: width 2s ease;
+}
